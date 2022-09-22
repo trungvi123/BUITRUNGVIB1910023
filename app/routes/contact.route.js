@@ -11,10 +11,10 @@ router
 
 router.route("/favorite").get(contacts.findAllFavorite);
 
-router
-  .route("/:id")
-  .get(contacts.findOne)
-  .put(contacts.update)
-  .delete(contacts.deletee);
+// router
+//   .route("/:id")
+//   .get(contacts.findOne)
+//   .put(contacts.update)
+//   .delete(contacts.deletee);
 
 export default router;
